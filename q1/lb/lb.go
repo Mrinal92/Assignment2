@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"google.golang.org/grpc"
-	pb "github.com/Mrinal92/Assignment2/q1/protofiles"
+	pb "github.com/Mrinal92/Assignment2/q1/proto"
 )
 
 // serverInfo holds registration and load details for a backend server.

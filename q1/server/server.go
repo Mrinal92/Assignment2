@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	pb "github.com/Mrinal92/Assignment2/q1/protofiles"
+	pb "github.com/Mrinal92/Assignment2/q1/proto"
 	"google.golang.org/grpc/credentials/insecure"
 )
 

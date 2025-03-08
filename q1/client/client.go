@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-	pb "github.com/Mrinal92/Assignment2/q1/protofiles"
+	pb "github.com/Mrinal92/Assignment2/q1/proto"
 )
 
 var (

@@ -5,7 +5,7 @@ package loadbalancer;
 // The go_package option tells protoc where the generated Go files belong.
 // Here we set it to "Q1/proto" (i.e. within our local module Q1, in the proto folder)
 // and we assign the local package name "proto".
-option go_package = "github.com/Mrinal92/Assignment2/q1/protofiles";
+option go_package = "./";
 
 service LoadBalancerService {
   // Called by backend servers to register themselves.
